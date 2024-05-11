@@ -1,0 +1,85 @@
+ body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } 
+  .calculator { 
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+    background-color: rgba(84, 84, 84, 0.81);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .key {
+    display: flex; 
+  }
+  :is(.row1, .row2) button { 
+    padding: 10px 14px 10px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    color: #000;
+    background-color: lightyellow;
+    flex-grow: 1;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  .row1 button { 
+    padding: 10px 11px 10px 16px;
+  }
+  :is(.row3, .row4) button { 
+    padding: 15px 25px 15px 25px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  }
+  .row4 button { 
+    color: #fff;
+    background-color: rgba(187, 165, 165, 0.81);
+  }
+  i {
+      font-size: 14px;
+  }
+  .fa-times {
+      font-size: 17px;
+  }
+  button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .display-area {
+    display: inline-block;
+    width: 92%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  .display-area input[type="text"] {
+    width: 92%;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px; 
+    font-size: 20px;
+    border: none;
+    outline: none;
+    
+  } 
+  .display-area .output {
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
