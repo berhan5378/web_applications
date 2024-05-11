@@ -1,6 +1,6 @@
 # Awesome Web Applications Repository
 
-Welcome to the Awesome Web Applications Repository! This repository contains a collection of diverse web applications, each serving a unique purpose and built using various technologies.
+Welcome to the Awesome Web Applications Repository! This repository contains a collection of diverse web applications, each serving a unique purpose andbuilt using various technologies.
 
 ## Overview
 
