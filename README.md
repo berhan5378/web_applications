@@ -14,5 +14,4 @@ Each web application is designed to showcase different technologies, frameworks,
 
 If you have any questions, feedback, or suggestions regarding the web applications in this repository, feel free to reach out to the maintainers at berhan5378@gmail.com.
 
-
 Happy coding!
