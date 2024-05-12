@@ -1,5 +1,7 @@
 ## Normal Calculator App
 
+![calculator img](calculator_img.png)
+
 The Normal Calculator App is a fully-featured calculator with additional functionality and customization options.
 
 ### Features
