@@ -1,5 +1,6 @@
 ## Easy Calculator App
 
+![calculator img](calculator_img.png)
 The Easy Calculator App is a Basic featured calculator.
 
 ### Features
