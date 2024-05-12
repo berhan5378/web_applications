@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  } 
+  .calculator { 
+    border-radius: 10px;
+    padding: 10px;
+    width: 280px;
+    background-color: rgba(84, 84, 84, 0.81);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .buttons{
+    display: grid;
+  }
+  .display-area {
+    display: inline-block;
+    width: 92%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  .display-area input[type="text"] {
+    width: 92%;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 10px; 
+    font-size: 40px;
+    border: none;
+    outline: none;
+    
+  }
+  .display-area .output {
+    text-align: left;
+     padding-left: 5px;
+  }
+  .key {
+    display: flex; 
+  }
+  :is(.row1, .row2, .row3) button { 
+    padding: 15px 25px 15px 25px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    margin: 3px; 
+  }
+  i{
+    font-size: 14px;
+  }
+  .row1 .delete-icon {
+    border: 1px solid rgb(6, 216, 216);
+    border-radius: 50%;
+    padding: 15px 25px 15px 25px;
+  }
+  .row1 button , .row3 button{
+    color: rgb(6, 216, 216);
+  }
+  .row3 .equalSign{
+    padding:38px 25px 45px 25px;
+    background-color:rgb(6, 216, 216);
+    color:#fff;
+    border-radius: 10px;
+  }
+  
