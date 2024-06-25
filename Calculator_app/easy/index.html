@@ -16,34 +16,28 @@
       <input type="text" class="input" id="expressionInput" onkeydown="handleKeyPress(event)" spellcheck="false" autofocus>
       <div class="output"></div>
     </div>
-    <div class="buttons">
-       <div class="row1">
-          <button onclick="clearDisplay()">C</button>
-          <button onclick="appendToDisplay('/')"><i class="fas fa-divide"></i></button> 
-          <button onclick="appendToDisplay('*')"><i class="fas fa-times"></i></button>
-          <button class="delete-icon" onclick="deleteNumber()"><i class="fas fa-backspace"></i></button>
-        </div>
-       <div class="key">
-        <div class="row2">
+    <div class="button">
+          <button class="key" onclick="clearDisplay()">C</button>
+          <button class="key" onclick="appendToDisplay('/')"><i class="fas fa-divide"></i></button> 
+          <button class="key" onclick="appendToDisplay('%')">%</button>
+          <button class="key" onclick="deleteNumber()"><i class="fas fa-backspace"></i></button>
            <button onclick="appendToDisplay('7')">7</button>
            <button onclick="appendToDisplay('8')">8</button>
-           <button onclick="appendToDisplay('9')">9</button> 
+           <button onclick="appendToDisplay('9')">9</button>
+           <button class="key" onclick="appendToDisplay('*')"><i class="fas fa-times"></i></button>
            <button onclick="appendToDisplay('4')">4</button>
            <button onclick="appendToDisplay('5')">5</button>
            <button onclick="appendToDisplay('6')">6</button>
+           <button class="key" onclick="appendToDisplay('-')"><i class="fas fa-minus"></i></button> 
            <button onclick="appendToDisplay('1')">1</button>
            <button onclick="appendToDisplay('2')">2</button>
-           <button onclick="appendToDisplay('3')">3</button>
+           <button onclick="appendToDisplay('3')">3</button> 
+           <button class="key" onclick="appendToDisplay('+')"><i class="fas fa-plus"></i></button>
            <button onclick="appendToDisplay('.')">&nbsp;.</button>
            <button onclick="appendToDisplay('0')">0</button>
-           <button onclick="appendToDisplay('%')">%</button>
-        </div>
-        <div class="row3"> 
-           <button onclick="appendToDisplay('-')"><i class="fas fa-minus"></i></button>
-           <button onclick="appendToDisplay('+')"><i class="fas fa-plus"></i></button>
-           <button onclick="calculate()" class="equalSign">=</button>
-           </div>
-      </div>
+           <button onclick="appendToDisplay('00')">00</button>
+           <button class="equalSign" onclick="calculate()">=</button>
+           <button></button>
     </div>
   </div>
 </body>
