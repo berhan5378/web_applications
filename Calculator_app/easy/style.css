@@ -47,7 +47,7 @@ body {
   }
   :is(.row1, .row2, .row3) button { 
     padding: 15px 25px 15px 25px;
-    font-size: 15px;
+    font-size: 16px;
     border: none;
     cursor: pointer;
     color: #fff;
@@ -58,9 +58,7 @@ body {
     font-size: 14px;
   }
   .row1 .delete-icon {
-    border: 1px solid rgb(6, 216, 216);
-    border-radius: 50%;
-    padding: 15px 25px 15px 25px;
+    padding: 12px 22px 12px 22px;
   }
   .row1 button , .row3 button{
     color: rgb(6, 216, 216);
