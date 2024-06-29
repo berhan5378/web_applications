@@ -7,7 +7,7 @@ The Normal Calculator App is a fully-featured calculator with additional functio
 ### Features
 
 - Basic arithmetic operations (addition, subtraction, multiplication, division).
-- Advanced functions (square root, lcm, gcm, etc.).
+- Advanced functions (!,lcm, gcm, etc.).
 - Customizable settings (theme and history).
 
 ### Technologies Used
@@ -17,3 +17,4 @@ The Normal Calculator App is a fully-featured calculator with additional functio
 - JavaScript
 - Ajax
 - php
+- mysql
