@@ -1,7 +1,7 @@
 <?php 
   session_start();
   if(isset($_SESSION['unique_id'])){
-    header("location: ../index.php");
+    header("location: index");
   }
 ?>
 
@@ -83,6 +83,6 @@
             </form>
         </div>    
     </div>
-    <script src="javascript/form.js"></script>
+    <script src="javascript/forms.js"></script>
 </body>
 </html>
