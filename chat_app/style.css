@@ -66,7 +66,10 @@ header a{
     font-size: 24px;
     color: #333;
 }
-
+.img_name{
+    font-size: small;
+    padding-bottom: 10px;
+}
 .custom-file-upload {
     display: inline-block;
     padding: 10px 20px;
@@ -147,6 +150,9 @@ header a{
     justify-content: space-between;
     align-items: center; 
     cursor: pointer;
+}
+.users-list button:hover{
+    background: yellow;
 }
 .users-list button i{
      
