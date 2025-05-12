@@ -1,4 +1,4 @@
-<?php
+ <?php
 //Evaluate gcd[,].
 function gcd($a, $b) {
     while ($b != 0) {
